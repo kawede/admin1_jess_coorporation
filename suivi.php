@@ -177,7 +177,7 @@ details[open] summary ~ * {
       <div class="col-md-9">
         <div class="card">
           <div class="card-header">
-            <h3 class="card-title" style="color:#88C1E7; font-weight:bold;">Suivi Abonnement</h3>
+            <a href="index.php" class="small-box-footer" style="color:#18345D;"><i class="fas fa-arrow-circle-left"></i> Retour à la page d'accueil</a>
             <div class="card-tools">
                <a href="abonne.php"><button type="submit" class="btn btn" style="background-color:rgb(255,0,102);  font-weight: bold; color: white;"> Reabonnement</button></a>
             </div>

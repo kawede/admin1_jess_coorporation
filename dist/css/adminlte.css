@@ -12,7 +12,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #007bff;
+  --primary: #18345D;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -33910,6 +33910,14 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
   overflow: auto;
   padding: 10px;
 }
+.direct-chat-messages1
+{
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+  height: 250px;
+  /*overflow: auto;*/
+  padding: 10px;
+}
 
 .direct-chat-msg,
 .direct-chat-text {
@@ -33985,7 +33993,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 }
 
 .right .direct-chat-img {
-  float: right;
+  float: left;
 }
 
 .direct-chat-infos {

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Dashboard</title>
+  <title>Abonnement</title>
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
@@ -235,15 +235,12 @@ details[open] summary ~ * {
                               <label>commentaire</label>
                               <div class="input-group">
                                 <textarea cols="10" class="form-control" placeholder="Ajouter une description"></textarea>
-                                <!-- <span class="input-group-append">
-                                  <button type="button" class="btn" style="background-color:#18345D;color:white;font-weight:bold; ;">Envoyer</button>
-                                </span> -->
                               </div>
                             </form>
                           </div>
                           <hr>
                           <div class="float-right">
-                            <button type="submit" class="btn btn" style="background-color:#88C1E7; border:2px solid rgb(101,147,183); font-weight: bold; color: white;">Enregister</button>
+                            <button type="submit" class="btn btn" style="background-color:#18345D; border:2px solid rgb(101,147,183); font-weight: bold; color: white;">Enregister</button>
                           </div>
                           <div class="form-group">
                               <!-- <textarea id="compose-textarea" placeholder="255 caractères Max" class="form-control" style="height: 200px">

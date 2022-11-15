@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Forum 1</title>
-
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
@@ -115,12 +114,12 @@
                   <p style="margin-left:10px;color:white;">Abonnement</p>
                 </a>
               </li>
-              <li class="nav-item">
+             <!--  <li class="nav-item">
                 <a href="suivi.php" class="nav-link">
                   <i class="fa fa-comments" style="color: white;"></i>
                   <p style="margin-left:10px;color:white;">Suivi</p>
                 </a>
-              </li>
+              </li> -->
             </ul>
           </li>
       </nav>
@@ -157,7 +156,9 @@
            <div class="col-lg-8">
             <div class="card">
               <div class="card-header">
-                   <h4 style="color:black; font-weight:bold;">Forum <span style="color:#88C1E7;">direct</span></h4>
+                <a href="index.php" class="small-box-footer" style="color:#18345D;"><i class="fas fa-arrow-circle-left"></i> Retour</a>
+                <div class="card-tools">
+                  <h5 style="color:black; font-weight:bold;"><i class="fas fa-tools" style="color:#18345D; font-size:15px;"></i><span style="color:rgb(255,0,102);">  Maintenance</span></h5></div>
               </div>
               <div class="card-body">
                  <div class="row">
@@ -200,26 +201,13 @@
                             Puisqu’il s’agit d’un forum,vous pouvez donc aimer les commentaires d’autrui ou
                           </div>
                         </div>
-
-                      </div>
-                      <div class="card-footer" style="background-color: white;">
-                        <form action="#" method="post">
-                          <label>commentaire</label>
-                          <div class="input-group">
-                            <input type="text" name="message" placeholder="Vous dites quoi? ..." class="form-control">
-                            <span class="input-group-append">
-                              <button type="button" class="btn" style="background-color:#18345D;color:white;font-weight:bold; ;">Send</button>
-                            </span>
-                          </div>
-                        </form>
-                      </div>
-                      <hr>
+                         <hr>
                       <div class="">
                          <details>
-                      <summary style="color:#88C1E7; font-family: Arial;  font-weight: bold;">Plus d'experience</summary>
+                      <summary style="color:#18345D; font-family: Arial;  font-weight: bold;">Plus d'experiences</summary>
                       <div class="faq__content">
                         <p>
-                         <div class="direct-chat-messages">
+                         <div class="direct-chat-messages1">
                         <!-- Message. Default to the left -->
                         <div class="direct-chat-msg">
                           <div class="direct-chat-infos clearfix">
@@ -259,6 +247,19 @@
                       </div>
                     </details>
                       </div>
+                      </div>
+                      <div class="card-footer" style="background-color: white;">
+                        <form action="#" method="post">
+                          <label>commentaire</label>
+                          <div class="input-group">
+                            <input type="text" name="message" placeholder="Vous dites quoi? ..." class="form-control">
+                            <span class="input-group-append">
+                              <button type="button" class="btn" style="background-color:#18345D;color:white;font-weight:bold; ;">Envoyer</button>
+                            </span>
+                          </div>
+                        </form>
+                      </div>
+                      
                     </div>
                      <!-- /.card-body -->
                   </div>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Dashboard</title>
+  <title>Messagerie</title>
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
@@ -176,10 +176,12 @@ details[open] summary ~ * {
       <div class="container-fluid">
         <div class="row">
         
-           <div class="col-lg-8">
+           <div class="col-lg-9">
             <div class="card">
               <div class="card-header">
-                   <h4 style="color:black; font-weight:bold;">Messages <span style="color:rgb(255,0,102);">direct</span></h4>
+                <a href="index.php" class="small-box-footer" style="color:#18345D;"><i class="fas fa-arrow-circle-left"></i> Retour</a>
+                <div class="card-tools">
+                  <h4 style="color:black; font-weight:bold;">Messages <span style="color:rgb(255,0,102);">direct</span></h4>                </div>
               </div>
               <div class="card-body">
                  <div class="row">
@@ -193,9 +195,9 @@ details[open] summary ~ * {
                              <span class="direct-chat-name float-left">chistian</span> 
                             <span class="direct-chat-timestamp float-right">Date & heure</span>
                           </div>
-                          <img class="direct-chat-img" src="dist/img/boxed-bg.jpg" alt="message user image">
+                          <i class="fa fa-user direct-chat-img" style="font-size:30px;color:#18345D;"></i>
                           <div class="direct-chat-text">
-                            Bonjour!
+                            Bonjour!sjssaa les miserables
                           </div>
                         </div>
                         <div class="direct-chat-msg">
@@ -204,10 +206,10 @@ details[open] summary ~ * {
                             <span class="direct-chat-timestamp float-right">Date et heure</span>
                           </div>
                           <!-- /.direct-chat-infos -->
-                          <img class="direct-chat-img" src="dist/img/boxed-bg.jpg" alt="message user image">
+                          <i class="fa fa-user direct-chat-img" style="font-size:30px;color:rgb(255,0,102);"></i>
                           <!-- /.direct-chat-img -->
-                          <div class="direct-chat-text">
-                            Bonjour
+                          <div class="direct-chat-text" style="background-color:#C3F8FF; color:black;">
+                            Bonjour les amateursBonjour les amateursBonjour les amateurs
                           </div>
                         </div>
                          <div class="direct-chat-msg">
@@ -216,17 +218,29 @@ details[open] summary ~ * {
                             <span class="direct-chat-timestamp float-right">Date et heure</span>
                           </div>
                           <!-- /.direct-chat-infos -->
-                             <img class="direct-chat-img" src="dist/img/boxed-bg.jpg" alt="message user image">
+                            <i class="fa fa-user direct-chat-img" style="font-size:30px;color:#18345D;"></i>
                           <!-- /.direct-chat-img -->
-                          <div class="direct-chat-text">
-                            Puisqu’il s’agit d’un forum,vous pouvez donc aimer les commentaires d’autrui ou
+                          <div class="direct-chat-text" >
+                            Puisqu’il s’agit d’un forum,vous pouvez donc aimer les commentaires d’autrui ou  Puisqu’il s’agit d’un forum,vous pouvez donc aimer les commentaires d’autrui ou  Puisqu’il s’agit d’un forum,vous pouvez donc aimer les commentaires d’autrui ou
+                          </div>
+                        </div>
+                        <div class="direct-chat-msg">
+                          <div class="direct-chat-infos clearfix">
+                            <span class="direct-chat-name float-left">Seraphin</span>
+                            <span class="direct-chat-timestamp float-right">Date et heure</span>
+                          </div>
+                          <!-- /.direct-chat-infos -->
+                          <i class="fa fa-user direct-chat-img" style="font-size:30px;color:rgb(255,0,102);"></i>
+                          <!-- /.direct-chat-img -->
+                          <div class="direct-chat-text" style="background-color:#C3F8FF; color:black;">
+                            Bonjour les amateurs
                           </div>
                         </div>
 
                       </div>
-                      <div class="card-footer">
+                      <div >
                         <form action="#" method="post">
-                          <label>commentaire</label>
+                          <label>Ajouter un commentaire</label>
                           <div class="input-group">
                             <input type="text" name="message" placeholder="Vous dites quoi? ..." class="form-control">
                             <span class="input-group-append">

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Dashboard</title>
+  <title>User Admin</title>
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
@@ -24,8 +24,24 @@
   <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
-    <style type="text/css">
+  <style type="text/css">
+    @media only screen and (max-width: 500px ){
+      .mdc{
+        margin-left: 50px;
+        margin-top: -65px;
+      }
+      .main-footer
+      {
+        display: inline-block;
+      }
+      .b1footer
+      {
+        font-size:15px;
+      }
+    }
+
    main {
+
 
 }
 summary {
@@ -179,9 +195,17 @@ details[open] summary ~ * {
             <div class="info-box">
               <span class="info-box-icon"><i class="fas fa-cog" style="color:#18345D;"></i></span>
               <div class="info-box-content">
-                <span class="info-box-text" style="font-weight: bold;font-size: 25px;color:#18345D;">425</span>
+                <!-- <span class="info-box-text" style="font-weight: bold;font-size: 25px;color:#18345D;">425</span> -->
                 <p class="small-box-footer" style="font-weight:bold;font-family: Arial;">Installations</p>
-                <a href="#" class="small-box-footer" style="color:#18345D; font-size:15px;">Les bons accompagnements dans vos projets en electrotechniques, de la planification à la maintenance en passant par l'Execution</a><span><i class="fas fa-heart" style="color:#88C1E7;"></i></span> | <i class="far fa-comments" title="messages" style="color:#18345D"></i><span class="badge badge-danger navbar-badge">3</span>
+                <a href="forum.php" class="small-box-footer" style="color:#18345D; font-size:15px;">Les bons accompagnements dans vos projets en electrotechniques, de la planification à la maintenance en passant par l'Execution</a>
+              <div style="display:inline;">
+                <span><a href="" class="btn " style="font-size: 15px; width: 150px;">
+                  <i class="far fa-heart" title="notification" style="color:#18345D"></i>
+                 <span class="badge badge-warning navbar-badge"style="background-color:#18345D;color: white;font-weight: bold;">15</span></a></span>
+                <span><a href="forum.php" class="btn mdc" style="font-size: 15px; width: 150px;">
+                  <i class="far fa-comments" title="notification" style="color:#18345D"></i>
+                 <span class="badge badge-warning navbar-badge" style="background-color:red;color: white;font-weight: bold;">15</span></a></span>
+              </div>
               </div>
               <a href="forum.php" class="small-box-footer" style="color:#18345D;">Plus... <i class="fas fa-arrow-circle-right"></i></a> 
        
@@ -194,9 +218,17 @@ details[open] summary ~ * {
               <span class="info-box-icon "><i class="fas fa-tools" style="color:#18345D;"></i></span>
 
               <div class="info-box-content">
-                <span class="info-box-text" style="font-weight: bold;font-size: 25px;color:#18345D;">25</span>
+                <!-- <span class="info-box-text" style="font-weight: bold;font-size: 25px;color:#18345D;">25</span> -->
                 <p class="small-box-footer" style="font-weight:bold;font-family: Arial;">Maintenance</p>
-                 <a href="#" class="small-box-footer" style="color:#18345D; font-size:15px;">Contactez-nous pour la maintenance et la reparation des vos installations electriques et équipements electroniques</a><span><i class="fas fa-heart" style="color:#88C1E7;"></i></span>
+                 <a href="#" class="small-box-footer" style="color:#18345D; font-size:15px;">Contactez-nous pour la maintenance et la reparation des vos installations electriques et équipements electroniques</a>
+                 <div style="display:inline;">
+                  <span><a href="" class="btn " style="font-size: 15px; width: 150px;">
+                    <i class="far fa-heart" title="notification" style="color:#18345D"></i>
+                   <span class="badge badge-warning navbar-badge"style="background-color:#18345D;color: white;font-weight: bold;">15</span></a></span>
+                  <span><a href="forum1.php" class="btn mdc" style="font-size: 15px; width: 150px;">
+                    <i class="far fa-comments" title="notification" style="color:#18345D"></i>
+                   <span class="badge badge-warning navbar-badge" style="background-color:red;color: white;font-weight: bold;">15</span></a></span>
+              </div>
               </div>
               <a href="forum1.php" class="small-box-footer" style="color:#18345D;">Plus... <i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -209,12 +241,20 @@ details[open] summary ~ * {
 
           <div class="col-12 col-sm-6 col-md-6">
             <div class="info-box mb-3">
-              <span class="info-box-icon "><i class="fas fa-shopping-cart" style="color:#18345D;"></i></span>
+              <span class="info-box-icon "><i class="fas fa-list-alt" style="color:#18345D;"></i></span>
 
               <div class="info-box-content">
-                <span class="info-box-text" style="font-weight: bold;font-size: 25px;color:#18345D;">425</span>
+               <!--  <span class="info-box-text" style="font-weight: bold;font-size: 25px;color:#18345D;">425</span> -->
                 <p class="small-box-footer" style="font-weight:bold;font-family: Arial;">Consultances & Conseils</p>
-                 <a href="#" class="small-box-footer" style="color:#18345D; font-size:15px;">Trouver des conseils avisés et fructueux avec les expers du domaine electriques</a><span><i class="fas fa-heart" style="color:#88C1E7;"></i></span>
+                 <a href="#" class="small-box-footer" style="color:#18345D; font-size:15px;">Trouver des conseils avisés et fructueux avec les expers du domaine electriques</a>
+                <div style="display:inline;">
+                  <span><a href="" class="btn " style="font-size: 15px; width: 150px;">
+                    <i class="far fa-heart" title="notification" style="color:#18345D"></i>
+                   <span class="badge badge-warning navbar-badge"style="background-color:#18345D;color: white;font-weight: bold;">15</span></a></span>
+                  <span><a href="forum3.php" class="btn mdc" style="font-size: 15px; width: 150px;">
+                    <i class="far fa-comments" title="notification" style="color:#18345D"></i>
+                   <span class="badge badge-warning navbar-badge" style="background-color:red;color: white;font-weight: bold;">15</span></a></span>
+              </div>
               </div>
               <a href="forum3.php" class="small-box-footer" style="color:#18345D;">Plus... <i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -223,12 +263,20 @@ details[open] summary ~ * {
           <!-- /.col -->
           <div class="col-12 col-sm-6 col-md-6">
             <div class="info-box mb-3">
-              <span class="info-box-icon "><i class="fas fa-users" style="color:#18345D;"></i></span>
+              <span class="info-box-icon "><i class="fas fa-mercury" style="color:#18345D;"></i></span>
 
               <div class="info-box-content">
-                <span class="info-box-text" style="font-weight: bold;font-size: 25px;color:#18345D;">425</span>
+                <!-- <span class="info-box-text" style="font-weight: bold;font-size: 25px;color:#18345D;">425</span> -->
                 <p class="small-box-footer" style="font-weight:bold;font-family: Arial;">Plomberie & Autres</p>
-                <a href="#" class="small-box-footer" style="color:#18345D; font-size:15px;">Des bons techniciens pour des bons services plomberie, decoration interieur, etc.</a> <span><i class="fas fa-heart" style="color:#88C1E7;"></i></span>
+                <a href="#" class="small-box-footer" style="color:#18345D; font-size:15px;">Des bons techniciens pour des bons services plomberie, decoration interieur, etc.</a> 
+                <div style="display:inline;">
+                  <span><a href="" class="btn " style="font-size: 15px; width: 150px;">
+                    <i class="far fa-heart" title="notification" style="color:#18345D"></i>
+                   <span class="badge badge-warning navbar-badge"style="background-color:#18345D;color: white;font-weight: bold;">15</span></a></span>
+                  <span><a href="forum4.php" class="btn mdc" style="font-size: 15px; width: 150px;">
+                    <i class="far fa-comments" title="notification" style="color:#18345D"></i>
+                   <span class="badge badge-warning navbar-badge" style="background-color:red;color: white;font-weight: bold;">15</span></a></span>
+              </div>
               </div>
               <a href="forum4.php" class="small-box-footer" style="color:#18345D;">Plus... <i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -241,26 +289,25 @@ details[open] summary ~ * {
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-  <footer class="main-footer">
+  <footer class="main-footer" style="position: relative; bottom: 0;">
         <div class="container">
       <div class="row">
-        <div class="col-md-2"></div>
+       <div class="col-md-4"></div>
         <div class="col-md-8">
-          <a href="assistance.php" class="btn " style="font-size: 20px; width: 150px;" >
-            <i class="fas fa-question" style="font-size:30px;color:#18345D"></i> 
-          </a>
-          <a href="" class="btn " style="font-size: 30px; width: 150px;">
-            <i class="far fa-bell" style="color:#18345D"></i>
-            <!-- <span class="badge badge-warning navbar-badge">15</span> -->
-          </a>
-          <a href="notification.php" class="btn "style="font-size: 30px; width: 150px;">
+          <a href="notification.php" class="btn b1footer"style="font-size: 30px;width: 100px;  ">
             <i class="fa fa-home"style="color:#18345D"></i> 
           </a>
-          <a href="Messagerie.php" class="btn "style="font-size: 30px; width: 150px;">
-             
-          <i class="far fa-comments" style="color:#18345D"></i>
-          <span class="badge badge-danger navbar-badge">3</span>
-        
+          <a href="assistance.php" class="btn b1footer" style="font-size: 20px;width: 100px; " >
+            <i class="fas fa-question" style="font-size:30px;color:#18345D"></i> 
+          </a>
+          <!-- <a href="" class="btn " style="font-size: 30px; width: 150px;">
+            <i class="far fa-bell" style="color:#18345D"></i>
+            <span class="badge badge-warning navbar-badge">15</span> 
+          </a> -->
+         
+          <a href="Messagerie.php" class="btn b1footer"style="font-size: 30px; width: 100px; ;">
+            <i class="far fa-comments" style="color:#18345D"></i>
+            <span class="badge badge-danger navbar-badge">3</span>
           </a>
         </div>
       </div>

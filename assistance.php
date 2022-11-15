@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Dashboard</title>
+  <title>Assistance</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -138,12 +138,12 @@ details[open] summary ~ * {
                   <p style="margin-left:10px;color:white;">Abonnement</p>
                 </a>
               </li>
-                <li class="nav-item">
+             <!--    <li class="nav-item">
                 <a href="suivi.php" class="nav-link">
                   <i class="fa fa-comments" style="color: white;"></i>
                   <p style="margin-left:10px;color:white;">Suivi</p>
                 </a>
-              </li>
+              </li> -->
             </ul>
           </li>
       </nav>
@@ -151,18 +151,13 @@ details[open] summary ~ * {
     </div>
     <!-- /.sidebar -->
   </aside>
-
-  <!-- Content Wrapper. Contains page content -->
-
-
-    <!-- Main content -->
-   <div class="content-wrapper">
+  <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h4 style="color:black; font-weight:bold;">Assistance | <span style="color:#88C1E7;">Abonnement</span></h4>
+            <!-- <h4 style="color:black; font-weight:bold;">Assistance | <span style="color:#88C1E7;">Abonnement</span></h4> -->
           </div>
           <div class="col-sm-6">
             <!-- <ol class="breadcrumb float-sm-right">
@@ -182,11 +177,12 @@ details[open] summary ~ * {
     <section class="content">
         <div class="col-md-9">
             <div class="card">
-              <div class="card-header">
-                <label class="col-form-label" for="inputWarning"><i class="far fa-bell"></i> Je m'abbone etant que:</label>
-                <div class="float-right">
-                  <a href="abonne.php"><button type="submit" class="btn btn" style="background-color:#88C1E7;  font-weight: bold; color: white;"> Abonnement...</button></a>
-                </div>
+             <div class="card-header">
+                <a href="index.php" class="small-box-footer" style="color:#18345D;"><i class="fas fa-arrow-circle-left"></i> Demander une assistance</a>
+                <div class="card-tools">
+                    <a href="abonne.php"><button type="submit" class="btn btn" style="background-color:rgb(255,0,102);  font-weight: bold; color: white;"> S'ABONNER</button></a>
+                  </div>
+                 
               </div>
               <!-- /.card-header -->
               <div class="card-body">
@@ -199,7 +195,23 @@ details[open] summary ~ * {
                           <div class="form-group">
                             <div class="form-check">
                               <input class="form-check-input" type="checkbox">
-                              <label class="form-check-label" style="color:black;font-weight:bold;"> Menage particulier</label>
+                              <label class="form-check-label" style="color:black;"> Reparation | Depannage</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox">
+                              <label class="form-check-label" style="color:black;"> Ordinateur</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox">
+                              <label class="form-check-label" style="color:black;"> Tablette | Telephnone</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox">
+                              <label class="form-check-label" style="color:black;"> Appareil Electroménager</label>
+                            </div>
+                             <div class="form-check">
+                              <input class="form-check-input" type="checkbox">
+                              <label class="form-check-label" style="color:black;"> Autres...</label>
                             </div>
                           </div>
                         </p>
@@ -207,17 +219,51 @@ details[open] summary ~ * {
                     </details>
 
                       <details>
-                      <summary style="color: black; font-family: Arial; font-size: 16px; font-weight: bold;border:2px solid rgb(214,220,229);"><!-- <i class="fa fa-user"></i> --> Reparation</summary>
+                      <summary style="color: black; font-family: Arial; font-size: 16px; font-weight: bold;border:2px solid rgb(214,220,229);"><!-- <i class="fa fa-user"></i> --> Maintenance</summary>
                       <div class="faq__content">
                           <p>
                           <div class="form-group">
                             <div class="form-check">
                               <input class="form-check-input" type="checkbox">
-                              <label class="form-check-label"style="color:black;font-weight:bold;">Revendeur d'équipement</label>
+                              <label class="form-check-label"style="color:black;">Maintenance électrique</label>
                             </div>
                             <div class="form-check">
                               <input class="form-check-input" type="checkbox" >
-                              <label class="form-check-label"style="color:black;font-weight:bold;" >Electronique | Electroménagères</label>
+                              <label class="form-check-label"style="color:black;" >Configuration Info</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox">
+                              <label class="form-check-label"style="color:black;">Maintenance Réseaux</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" >
+                              <label class="form-check-label"style="color:black;" >Autres...</label>
+                            </div>
+                          
+                          </div>
+                        </p>
+                      </div>
+                    </details>
+                       <details>
+                      <summary style="color: black; font-family: Arial; font-size: 16px; font-weight: bold;border:2px solid rgb(214,220,229);"><!-- <i class="fa fa-user"></i> --> Assistances | Consultances</summary>
+                      <div class="faq__content">
+                          <p>
+                          <div class="form-group">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox">
+                              <label class="form-check-label"style="color:black;">Guide d'utilisation</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" >
+                              <label class="form-check-label"style="color:black;" >Achat d'un nouvel appareil</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox">
+                              <label class="form-check-label"style="color:black;">Conception projet Tech</label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" >
+                              <label class="form-check-label"style="color:black;" >Autres...</label>
                             </div>
                           
                           </div>
@@ -239,32 +285,9 @@ details[open] summary ~ * {
                        <div class="float-right">
                         <button type="submit" class="btn btn" style="background-color:#88C1E7; border:2px solid #375981; font-weight: bold; color: white;"> Valider</button>
                       </div>
-                
-                 
-               
-                <div class="form-group">
-                    <!-- <textarea id="compose-textarea" placeholder="255 caractères Max" class="form-control" style="height: 200px">
-                      
-                    </textarea> -->
-                </div>
-              </div>
-              <!-- /.card-body -->
-              <div class="card-footer">
-               
-               
-              </div>
-              <!-- /.card-footer -->
-            </div>
-            <!-- /.card -->
-          </div>
-          
-      </div>
-      <!-- /.row -->
-      
-      </div>
+              
+                   </div>
     </section>
-    <!-- /.content -->
-  </div>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->

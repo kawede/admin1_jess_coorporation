@@ -1,27 +1,28 @@
- <footer class="main-footer"style="position: relative; bottom: 0;" >
-    <div class="container">
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-          <a href="assistance.php" class="btn " style="font-size: 20px; width: 150px;" >
-            <i class="fas fa-question" title="assistance" style="font-size:30px;color:#18345D"></i> 
-          </a>
-          <a href="" class="btn " style="font-size: 30px; width: 150px;">
-            <i class="far fa-bell" title="notification" style="color:#18345D"></i>
-            <!-- <span class="badge badge-warning navbar-badge">15</span> -->
-          </a>
-          <a href="notification.php" class="btn "style="font-size: 30px; width: 150px;">
-            <i class="fa fa-home" title="Jess house" style="color:#18345D"></i> 
-          </a>
-          <a href="Messagerie.php" class="btn "style="font-size: 30px; width: 150px;">
+  <footer class="main-footer" style="position: relative; bottom: 0;">
+      <div class="d-none d-sm-block">
+        <div class="container">
+          <div class="row">
+           <div class="col-md-4"></div>
+            <div class="col-md-8">
+              <a href="notification.php" class="btn b1footer"style="font-size: 30px;width: 100px;  ">
+                <i class="fa fa-home"style="color:#18345D"></i> 
+              </a>
+              <a href="assistance.php" class="btn b1footer" style="font-size: 20px;width: 100px; " >
+                <i class="fas fa-question" style="font-size:30px;color:#18345D"></i> 
+              </a>
+              <!-- <a href="" class="btn " style="font-size: 30px; width: 150px;">
+                <i class="far fa-bell" style="color:#18345D"></i>
+                <span class="badge badge-warning navbar-badge">15</span> 
+              </a> -->
              
-          <i class="far fa-comments" title="messages" style="color:#18345D"></i>
-          <span class="badge badge-danger navbar-badge">3</span>
-        
-          </a>
+              <a href="Messagerie.php" class="btn b1footer"style="font-size: 30px; width: 100px; ;">
+                <i class="far fa-comments" style="color:#18345D"></i>
+                <span class="badge badge-danger navbar-badge">3</span>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
   </footer>
 
 </div>
